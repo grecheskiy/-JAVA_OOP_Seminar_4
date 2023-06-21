@@ -5,7 +5,7 @@ public class Summa {
 
     <T extends Number> Summa(T arg) {
 
-        sum = 0;
+        sum = 0; //значения передаются конструктору, конструктор сделал обобщенным
         for (int i = 0; i <= arg.intValue(); i++) {
            sum += i; 
         }

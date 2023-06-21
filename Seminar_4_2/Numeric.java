@@ -1,6 +1,6 @@
 package Seminar_4_2;
 
-public class Numeric <T extends Number>{
+public class Numeric <T extends Number>{ //наследуем, чтобы получить доступы ко всем числам
     T num;
     Numeric(T m) {
         num = m;
